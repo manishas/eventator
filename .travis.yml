@@ -29,8 +29,7 @@ before_script:
 
 notifications:
     email:
-        - pilo.uanic@gmail.com
-
+        - manisha@shippable.com
 script:
     - bin/phpspec run -fpretty --verbose
     - bin/behat --no-snippets --verbose -fpretty
